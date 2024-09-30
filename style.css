@@ -1,0 +1,72 @@
+/* Reset all margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01161E;
+    color: white;
+}
+
+nav {
+    height: 150px;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(180, 177, 177, 0.202);
+}
+.weather {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.temp{
+    margin: 20px;
+}
+
+.weather p {
+    font-size: 3rem;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: skyblue;
+
+}
+nav form {
+    width: 70%;
+    display: flex;
+}
+
+.searchField {
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 98%;
+}
+
+nav form button {
+    background-color: #4ECDC4;
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
